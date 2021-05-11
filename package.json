@@ -1,0 +1,21 @@
+{
+  "name": "subtlefixer",
+  "version": "1.0.0",
+  "description": "Will adjust SRT files with the specified offset",
+  "main": "index.js",
+  "bin": {
+    "subtlefixer": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "subtitle",
+    "adjuster"
+  ],
+  "author": "Massimo Melina <a@rejetto.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
