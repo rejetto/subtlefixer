@@ -27,7 +27,7 @@ eachFile(folder, '.'+FORMAT, fn=>{
     const normalized = content.replace(/\r/g,'') // make it easy
     const pieces = normalized.split('\n\n')
     const newPieces = pieces.map(piece=>{
-        if (!piece)
+        if (!piece.trim())
             return ''
         const lines = piece.split('\n')
         const times = lines[1].split(/ *-+> */,2)
